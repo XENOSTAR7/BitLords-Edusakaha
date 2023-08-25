@@ -37,7 +37,20 @@
     margin-left: 50px;
 }
 .signupimg{
-    object-fit: cover;
-    height: 100vh;
-    width: 100%;
+    object-fit:cover;
+    /* height: calc(100vh - 70px); */
+    height: 100vh !important;
+    width: 700 px;
+}
+.card{
+    background: rgba( 105, 180, 255, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10.5px );
+-webkit-backdrop-filter: blur( 10.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.card>input
+{
+    width: 70px !important;
 }
