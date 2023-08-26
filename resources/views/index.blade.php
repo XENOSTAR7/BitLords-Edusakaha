@@ -23,12 +23,12 @@
           </a>
         </div>
           <div>
-              <a class="button signup" href="./signup.html">Sign Up</a>
-              <a class="button signin" href="./signin.html">Sign In</a>
+              <a class="button signup" href="/signup">Sign Up</a>
+              <a class="button signin" href="/signin">Sign In</a>
           </div>
       </nav>
       <section class="section is-large">
-            
+
       </section>
 </body>
 </html>
